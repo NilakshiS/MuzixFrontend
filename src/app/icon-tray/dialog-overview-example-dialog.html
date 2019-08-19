@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>{{data.trackName}}<br>{{data.trackArtist}}</h1>
+<div mat-dialog-content>
+  <p>Enter your comments: </p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.trackComments">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data.trackComments" cdkFocusInitial>Ok</button>
+</div>

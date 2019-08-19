@@ -1,0 +1,38 @@
+mat-toolbar {
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: min-content;
+}
+.fill-space {
+flex: 1 1 auto;
+}
+app-search-bar{
+  margin: 0 10px;
+}
+.container {
+  height: 100%;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+button {
+  margin: 0 50px;
+}
+mat-icon {
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

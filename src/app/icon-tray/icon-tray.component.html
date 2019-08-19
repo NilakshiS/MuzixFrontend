@@ -1,0 +1,5 @@
+<mat-card-actions>
+  <button mat-button *ngFor="let icon of icons" (click)="onClick(iconButton)">
+    <mat-icon #iconButton>{{icon}}</mat-icon>
+  </button>
+</mat-card-actions>
